@@ -47,7 +47,9 @@
 
             var polygonSeries = chart.series.push(
                 am5map.MapPolygonSeries.new(chartRoot, {
-                    geoJSON: am5geodata_usaLow
+                    geoJSON: am5geodata_usaLow,
+                    fill: am5.color(0x404040),   // light gray fill
+                    stroke: am5.color(0xffffff)  // white borders
                 })
             );
 
@@ -56,7 +58,7 @@
             });
 
             polygonSeries.mapPolygons.template.states.create("hover", {
-                fill: am5.color(0x297373)
+                fill: am5.color(0xd4b46c)
             });
 
             // create a dynamic zoomout button
@@ -279,7 +281,7 @@
 
                     var circle = container.children.push(am5.Circle.new(chartRoot, {
                         radius: 10,
-                        fill: am5.color(0x000000),
+                        fill: am5.color(0x97692f),
                         fillOpacity: 0.7,
                         cursorOverStyle: "pointer",
                         tooltipText: "{name}:\n[bold]{locationCount} locations[/]"

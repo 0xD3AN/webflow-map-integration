@@ -1,0 +1,32 @@
+COMPANY COLORS:
+
+Dark Gray: #404040
+Light Gold: #d4b46c
+Medium Gold: #b68e4d
+Dark Gold: #97692f
+White: #ffffff
+
+
+
+CITIES:
+
+Lake Charles, LA
+30.2266, 93.2174
+
+Gurnee, IL
+42.3703, 87.9020
+
+Rockville, MD
+39.0840, 77.1528
+
+Houston, TX
+29.7601, 95.3701
+
+Flower Mound, TX
+33.0146, 97.0970
+
+McAllen, TX
+26.2034, 98.2300
+
+Waxahachie, TX
+32.3863, 96.8488
